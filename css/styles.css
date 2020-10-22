@@ -201,6 +201,16 @@ img {
   border-style: none;
 }
 
+#arrow-down {
+  margin-top: 20%;
+  margin-left: 50%
+}
+
+#arrow-down:hover{
+  color: #bd5d38;
+  cursor: pointer;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -581,6 +591,12 @@ pre code {
     max-width: 540px;
   }
 }
+@media (max-width: 580px) {
+  #arrow-down{
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
